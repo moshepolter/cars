@@ -1,0 +1,131 @@
+    body{
+      height: 2500px;
+      font-weight: bold;
+      font-style: "Impact";
+      margin: 0;
+    }
+    header{
+      position: fixed !important;
+      top: 0;
+      left: 0;
+      right:0;
+      background-color: #000000;
+      color: #ffffff;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      height: 60px;
+      z-index: 1;
+      font-style: "Segoe UI Black" !important;
+    }
+    header img{
+      height: 25px; 
+      width: 50px; 
+      margin-right: 900px;
+    }
+    header nav span a{
+      text-decoration: none;
+      color: white;
+      padding-right: 25px;
+    }
+    a{
+      display: inline-flex;
+      align-items: center;
+      text-decoration: none;
+      color: black;
+    }
+    header nav span a:hover{
+      color: lightgray;
+    }
+    h1{
+      text-align: center;
+      padding: 10px 10px 10px 10px;
+    }
+    img{
+      height: 200px;
+    }
+    #su:hover{
+      cursor: pointer;
+    }
+    .suits{
+      background-color: lightgray;
+      position: relative;
+      top:0;
+      left: 0;
+      right: 0;
+      width: 100%;
+      background-position: all;
+      background-size: cover;
+      height: 500px;
+    }
+    #title{
+      margin-top: 50px;
+    }
+    #su{
+      background-color: white;
+      float: left;
+      font-size: 15px;
+      font-style: "Dubai Medium";
+      margin-left: 45px;
+    }
+    #padding{
+      padding-left: 5px;
+      background-image: lightgray;
+    }
+    p{
+      padding-left: 5px;
+    }
+    .ml{
+      margin-left: 20px;
+    }
+    b:hover{
+      border-top: 1px thin red;
+      border-bottom: 1px red thin;
+    }
+    #sales p{
+      font-weight: normal;
+    }
+    #sales:hover{
+      background-color: lightgray;
+    }
+    #sales{
+      display: inline-block;
+      padding: 5px 5px;
+      margin: 20px 26px;
+    }
+    #bigImage p{
+      font-weight: normal;
+      font-size: 25px;
+      font: "Bahnschrift Light Condensed";
+      line-height: 1.2;
+    }
+    #mcs:hover{
+      background-color: lightgray;
+      border: 2px solid black;
+    }
+    #mcs{
+    display: inline-flex;
+    align-content: flex-start;
+    flex-direction: row;
+    padding: 10px 100px 10px 0px;
+
+    }
+    #mcs img{
+      height: 150px;
+      width: 275px;
+    }
+    #mcs h4{
+      font-weight: normal; 
+      padding-left: 20px;
+    }
+    #smallImages .image1{
+      margin-left: 100px;
+    }
+    #smallImages .image2{
+      margin-top: 0px;
+    }
+    .right{
+    }
+    #left{
+      float: left;
+    }
