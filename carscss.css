@@ -1,5 +1,5 @@
     body{
-      height: 2500px;
+      height: 1600px;
       font-weight: bold;
       font-style: "Impact";
       margin: 0;
@@ -27,6 +27,8 @@
       text-decoration: none;
       color: white;
       padding-right: 25px;
+      display: inline-flex;
+      align-content: center;
     }
     a{
       display: inline-flex;
@@ -107,8 +109,8 @@
     display: inline-flex;
     align-content: flex-start;
     flex-direction: row;
-    padding: 10px 100px 10px 0px;
-
+    padding: 10px 95px 10px 0px;
+    margin-left: 5px;
     }
     #mcs img{
       height: 150px;
@@ -128,4 +130,11 @@
     }
     #left{
       float: left;
+    }
+    #footer a{
+      text-decoration: underline;
+      color: blue;
+    }
+    #footer{
+      margin-top: 100px;
     }
